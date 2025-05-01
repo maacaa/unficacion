@@ -1,0 +1,47 @@
+	<section class="introduccion">
+	<div class= "marco-texto">
+	
+		<h2>INTRODUCTION</h2>
+		<p>Hello, my name is Johnny. I’m an English-speaking qualified carpenter with 8 years of experience, specializing in high-quality custom carpentry projects both in my workshop and on-site. My passion is collaborating with clients to design and create bespoke pieces that transform spaces.
+I offer a wide range of services, including custom carpentry projects, home renovations, furniture design & creation, and restoration of your cherished pieces. I also create 3-D model designs to help you visualize our collaborative projects. I am comfortable with handling the entire project from start to finish. I believe in personalized service and take pride in understanding your needs to achieve the perfect outcome.
+		</p>
+	</div>
+	</section>
+	<section class = "marco-servicios">
+		<br><br>
+		
+		
+		
+		
+		 1. Custom Carpentry Projects
+Furniture Design and Construction: Custom tables, chairs, beds, and shelving units.
+Cabinetry: Custom kitchen cabinets, bathroom vanities, and built-in storage solutions.
+Wooden Fixtures: Custom doors, windows, and frames.
+Decorative Woodwork: Mouldings, trims, and wainscoting.
+Outdoor Structures: Custom decks, pergolas, and gazebos.
+
+2. Home Renovations
+Kitchen Renovations: Installing new cabinets, countertops, and islands.
+Bathroom Upgrades: Custom vanities, shelving, and storage solutions.
+Flooring Installation: Hardwood, laminate, and engineered wood flooring.
+Room Additions: Framing and finishing new rooms or extensions.
+Structural Changes: Removing or adding walls, creating open floor plans.
+
+3. Restoration and Repairs
+Woodwork Restoration: Refinishing and restoring antique furniture and woodwork.
+Structural Repairs: Fixing damaged beams, joists, and other structural elements.
+Door and Window Repairs: Repairing or replacing damaged doors and windows.
+Trim and Moulding Repairs: Fixing or replacing damaged baseboards, crown moulding, and other trims.
+General Repairs: Fixing broken furniture, cabinetry, and other wooden items.
+
+—-
+
+Testimonial 1:
+
+The craftsmanship is truly outstanding, with a beautiful design and a magnificent finish that far exceeded our expectations.
+
+Throughout the process, Johnny was a joy to work with. He took a consultative approach, offering multiple design options and ensuring that we were fully involved in every step of the decision-making process.
+
+Testimonial 2:
+
+We appreciated how easy it was to work with him. He was punctual, respectful of our space, and kept everything tidy as he worked. Communication was clear, and we always knew what to expect.
