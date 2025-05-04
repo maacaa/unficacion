@@ -6,14 +6,17 @@
 
 body {
   font-family: "Times New Roman", Times, serif;
-  background: url('wood4.png') repeat fixed;
+  background: url('wood4.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
   background-size: auto;
   text-decoration: none;
 }
 
-.marco-servicios,
-.marco-pergola {
-  background: url('burnwood.jpg') repeat fixed;
+.marco-servicios, .marco-pergola {
+  background: url('burnwood.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
   background-size: auto;
   padding: 0;
   margin: 0;
@@ -24,18 +27,17 @@ body {
   background-repeat: repeat;
   background-size: auto;
   background-position: left top;
-  height: 20vh;
+  height: 10vh;
 }
 
 .carrusel {
   position: relative;
-  width: 90%;
-  max-width: 900px;
+  width: 80%;
   margin: 5vh auto;
   overflow: hidden;
   border-radius: 0;
   background-color: #fbeee6;
-  padding: 2%;
+  padding: 1vw;
   color: #fbeee6;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -45,27 +47,25 @@ body {
   transition: transform 3s ease;
 }
 
-.cards-container,
-.cards-pergola {
+.cards-container, .cards-pergola {
   display: flex;
   justify-content: center;
-  gap: 5%;
-  padding: 30px 5%;
+  gap: 5vw;
+  padding: 5vh 5vw;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 2vh;
 }
 
 .card {
   background-color: #fbeee6;
   color: black;
   text-align: center;
-  padding: 2%;
-  border-radius: 10px;
+  padding: 2vh;
+  border-radius: 1vw;
   width: 90%;
-  max-width: 1000px;
+  max-width: 500px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  font-family: "Times New Roman", Times, serif;
 }
 
 .card:hover {
@@ -75,14 +75,12 @@ body {
 
 .card .icon {
   font-size: 2.5em;
-  margin-bottom: 15px;
+  margin-bottom: 1vh;
 }
 
-.card h4,
-.card h5 {
-  font-size: 2em;
-  margin-bottom: 30px;
-  font-family: "Times New Roman", Times, serif;
+.card h4, .card h5 {
+  font-size: 1.8em;
+  margin-bottom: 2vh;
   font-style: italic;
   text-align: center;
 }
@@ -90,7 +88,6 @@ body {
 .card p {
   font-size: 1em;
   line-height: 1.5;
-  font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
 
@@ -134,26 +131,25 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   background-color: #fbeee6;
-  padding: 2vh 4vw;
-  height: 20vh;
+  padding: 2vh 2vw;
+  height: auto;
 }
 
 .navbar-logo {
   display: flex;
   align-items: center;
-  color: black;
 }
 
 .navbar-logo img {
   height: 10vh;
-  margin-right: 10px;
-  padding: 5px;
+  margin-right: 1vw;
+  padding: 0.5vw;
 }
 
 .navbar-title {
   font-size: 1.8em;
   font-weight: bold;
-  margin-left: 30px;
+  margin-left: 2vw;
   font-family: "Times New Roman", Times, serif;
   color: black;
   text-decoration: none;
@@ -170,10 +166,9 @@ button:hover {
 .navbar-menu {
   list-style-type: none;
   display: flex;
-  gap: 20px;
+  gap: 2vw;
   margin: 0;
   padding: 0;
-  text-decoration: none;
 }
 
 .navbar-menu li {
@@ -192,25 +187,19 @@ button:hover {
   color: #40E0D0;
 }
 
-.main-content {
-  height: 90vh;
-  overflow-y: auto;
-}
-
-.servicios,
-.servicios-pergola {
+.servicios, .servicios-pergola {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
-  padding: 0;
+  gap: 2vw;
+  padding: 2vh;
 }
 
 .tarjeta {
   border-radius: 15px;
   overflow: hidden;
   text-align: center;
-  width: 90%;
+  width: 80vw;
   max-width: 300px;
   color: black;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -219,15 +208,8 @@ button:hover {
 }
 
 .tarjeta-pergola {
-  border-radius: 15px;
-  overflow: hidden;
-  text-align: center;
-  width: 90%;
+  width: 90vw;
   max-width: 500px;
-  color: black;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
-  text-decoration: none;
 }
 
 .tarjeta:hover {
@@ -241,58 +223,53 @@ button:hover {
 }
 
 .contenido {
-  padding: 15px;
+  padding: 2vh;
   background: #fbeee6;
 }
 
 .icono {
   font-size: 2em;
-  margin-bottom: 10px;
+  margin-bottom: 1vh;
   color: white;
 }
 
-h1,
-h2,
-h3,
-h5 {
+h3, h2, h5, h1 {
   font-family: "Times New Roman", Times, serif;
   color: black;
-  font-style: italic;
   text-align: center;
   text-decoration: none;
-  font-weight: bold;
 }
 
 h1 {
   font-size: 2em;
-  margin-bottom: 10px;
+  margin-bottom: 1vh;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 2em;
-  margin-bottom: 20px;
-}
-
-h3 {
-  font-size: 1.2em;
-  margin-bottom: 10px;
+  margin-bottom: 2vh;
+  font-weight: bold;
+  font-style: italic;
 }
 
 h5 {
-  font-size: clamp(2.5em, 6vw, 5em);
-  margin-bottom: 20px;
+  font-size: 4em;
+  margin-bottom: 2vh;
+  font-weight: bold;
+  font-style: italic;
 }
 
 p, p1, p2, p3, a1 {
-  color: black;
   font-family: "Times New Roman", Times, serif;
-  font-style: italic;
   text-align: center;
   text-decoration: none;
+  color: black;
 }
 
 p {
-  font-size: 1.4em;
+  font-size: 1.2em;
+  font-style: italic;
   font-weight: bold;
 }
 
@@ -302,27 +279,29 @@ p1 {
 
 p2 {
   font-size: 1.7em;
+  font-style: italic;
 }
 
 p3 {
   font-size: 1.5em;
+  font-style: italic;
 }
 
 a1 {
   font-size: 1.4em;
+  font-style: italic;
   font-weight: bold;
 }
 
 .marco-texto {
   background-color: rgba(5, 96, 137, 0.9);
-  padding: 30px;
+  padding: 3vh;
   color: black;
-  text-decoration: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .iconos-redes {
-  margin-bottom: 10px;
+  margin-bottom: 1vh;
 }
 
 .iconos-redes i {
@@ -340,13 +319,13 @@ a1 {
 .tabla-servicios {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 30px;
+  margin-top: 3vh;
 }
 
 .tabla-servicios th,
 .tabla-servicios td {
   border: 1px solid #ccc;
-  padding: 12px;
+  padding: 1.5vh;
   text-align: center;
 }
 
@@ -370,30 +349,42 @@ a1 {
   text-decoration: underline;
 }
 
-/* RESPONSIVE MEDIA QUERIES */
+/* ------------------- RESPONSIVE NAVBAR ------------------- */
 @media screen and (max-width: 768px) {
-  .navbar-menu {
+  .navbar {
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    height: auto;
+    padding: 2vh 2vw;
   }
 
-  .carrusel,
-  .card,
-  .tarjeta,
-  .tarjeta-pergola {
-    width: 95%;
-    margin: auto;
+  .navbar-logo {
+    flex-direction: column;
+    align-items: center;
   }
 
   .navbar-logo img {
     height: 8vh;
+    margin: 0;
   }
 
-  .imagen {
-    height: 25vh;
+  .navbar-title {
+    font-size: 1.3em;
+    margin-left: 0;
+    text-align: center;
   }
 
-  h2, h5 {
-    font-size: 1.5em;
+  .navbar-title small {
+    font-size: 0.7em;
+    margin-left: 0;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+    gap: 1vh;
+  }
+
+  .navbar-menu a {
+    font-size: 1.1em;
   }
 }
